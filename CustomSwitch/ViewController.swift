@@ -8,12 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var isToggle = false
 
+
+    @IBOutlet var SwitchMood: CustomSwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+
     }
 
 
+
+
+    @IBAction func switchBtn(_ sender: UISwitch) {
+        isToggle.toggle()
+        view.backgroundColor = (isToggle) ? .red:.blue
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.view.backgroundColor = .white
+
+
+               }
+    }
+    
 }
+
 

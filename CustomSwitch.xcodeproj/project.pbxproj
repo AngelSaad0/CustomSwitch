@@ -13,6 +13,8 @@
 		A9ACE1F52C5A8290006B2842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ACE1F32C5A8290006B2842 /* Main.storyboard */; };
 		A9ACE1F72C5A8292006B2842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9ACE1F62C5A8292006B2842 /* Assets.xcassets */; };
 		A9ACE1FA2C5A8292006B2842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9ACE1F82C5A8292006B2842 /* LaunchScreen.storyboard */; };
+		A9ACE2022C5A82B3006B2842 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACE2012C5A82B3006B2842 /* CustomSwitch.swift */; };
+		A9ACE2042C5A93D4006B2842 /* UISwich+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACE2032C5A93D4006B2842 /* UISwich+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A9ACE1F62C5A8292006B2842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9ACE1F92C5A8292006B2842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9ACE1FB2C5A8292006B2842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ACE2012C5A82B3006B2842 /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
+		A9ACE2032C5A93D4006B2842 /* UISwich+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISwich+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A9ACE1ED2C5A8290006B2842 /* AppDelegate.swift */,
 				A9ACE1EF2C5A8290006B2842 /* SceneDelegate.swift */,
 				A9ACE1F12C5A8290006B2842 /* ViewController.swift */,
+				A9ACE2032C5A93D4006B2842 /* UISwich+Extension.swift */,
+				A9ACE2012C5A82B3006B2842 /* CustomSwitch.swift */,
 				A9ACE1F32C5A8290006B2842 /* Main.storyboard */,
 				A9ACE1F62C5A8292006B2842 /* Assets.xcassets */,
 				A9ACE1F82C5A8292006B2842 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				A9ACE1F22C5A8290006B2842 /* ViewController.swift in Sources */,
 				A9ACE1EE2C5A8290006B2842 /* AppDelegate.swift in Sources */,
+				A9ACE2042C5A93D4006B2842 /* UISwich+Extension.swift in Sources */,
+				A9ACE2022C5A82B3006B2842 /* CustomSwitch.swift in Sources */,
 				A9ACE1F02C5A8290006B2842 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
